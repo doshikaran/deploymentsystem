@@ -3,10 +3,10 @@ import fs from "fs";
 import path from "path";
 
 const s3 = new S3({
-  accessKeyId: "64c1cf3c53779b370a0df2f7edbcd1ee",
+  accessKeyId: "",
   secretAccessKey:
-    "2bd1a1ef7335622bceb39b5e0cad23c0f9bdbe93b57ee979ca0a42062a73d07b",
-  endpoint: "https://a0638756644cedebb06d73f0c9d15fdf.r2.cloudflarestorage.com",
+    "",
+  endpoint: "",
 });
 
 export async function downloadS3Folder(prefix: string) {
